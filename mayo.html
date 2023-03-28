@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="mayo.css"></link>
+    <script src="https://kit.fontawesome.com/0201c2aa27.js"crossorigin="anonymous"></script>
+    <title>mayo clinic</title>
+  </head>
+  <body>
+ <div>
+    <div class="container-fluid sec1">
+        <hr>
+        <img src="data:image/png;base64,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" height="50px" width="50px">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent pr-5 sec2">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+              <i class="fa-regular fa-magnifying-glass"></i><input class="form-control mr-sm-2 sec3" type="search" placeholder="Search mayo clinic" aria-label="Search">
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+              </form>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-user"></i>Log into Patients Account<span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Langauges
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Tamil</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <!-- <a class="dropdown-item" href="#">Something else here</a>? -->
+                  </div>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li> -->
+              </ul>
+             
+            </div>
+          </nav>
+        <hr>
+        <!-- Example split danger button -->
+        <div class="col-lg-12">
+<div class="btn-group">
+    <!-- <h5>Care At Mayo Clinic</h5> -->
+    <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+    <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">Care At Mayo Clinic</button>
+      <span class="sr-only"></span>
+
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Care at mayo clinic</a>
+      <a class="dropdown-item" href="#">Appointments</a>
+      <a class="dropdown-item" href="#">Location</a>
+      <a class="dropdown-item" href="#">Patient & visitors</a>
+      <a class="dropdown-item" href="#">International services</a>
+      <a class="dropdown-item" href="#">Medicinal department & center</a>
+      <a class="dropdown-item" href="#">Doctor & medical staff</a>
+      <a class="dropdown-item" href="#">Patient online service</a>
+      <a class="dropdown-item" href="#">Billing & insurance </a>
+      <a class="dropdown-item" href="#">Clinical trail</a>
+      <a class="dropdown-item" href="#">International buisness collabration</a>
+      <a class="dropdown-item" href="#">About mayo clinic</a>
+      <a class="dropdown-item" href="#">Contact us</a>
+    </div>
+</div>
+      <div class="btn-group">
+        <!-- <h5>Health information</h5> -->
+       
+        <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+        <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">Health information</button>
+  
+        <span class="sr-only"></span>
+    
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Health information</a>
+          <a class="dropdown-item" href="#">Disease condition</a>
+          <a class="dropdown-item" href="#">symptoms</a>
+          <a class="dropdown-item" href="#">test & procedure</a>
+          <a class="dropdown-item" href="#">Drugs & supplements</a>
+          <a class="dropdown-item" href="#">Health book</a>
+          <a class="dropdown-item" href="#">Healthy living program</a>
+          <a class="dropdown-item" href="#">Mayo clinic voice apps</a>
+          <a class="dropdown-item" href="#">Mayo clinic health letter </a>
+          <a class="dropdown-item" href="#">Healthy life style</a>
+                  </div>
+      </div>
+          <div class="btn-group">
+            <!-- <h5>Care At Mayo Clinic</h5> -->
+            <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+            <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">For medical proffesionals</button>
+            <span class="sr-only"></span>
+        
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Care at mayo clinic</a>
+              <a class="dropdown-item" href="#">Appointments</a>
+              <a class="dropdown-item" href="#">Location</a>
+              <a class="dropdown-item" href="#">Patient & visitors</a>
+              <a class="dropdown-item" href="#">International services</a>
+              <a class="dropdown-item" href="#">Medicinal department & center</a>
+              <a class="dropdown-item" href="#">Doctor & medical staff</a>
+              <a class="dropdown-item" href="#">Patient online service</a>
+              <a class="dropdown-item" href="#">Billing & insurance </a>
+              <a class="dropdown-item" href="#">Clinical trail</a>
+              <a class="dropdown-item" href="#">International buisness collabration</a>
+              <a class="dropdown-item" href="#">About mayo clinic</a>
+              <a class="dropdown-item" href="#">Contact us</a>
+            </div>
+          </div>
+              <div class="btn-group">
+                <!-- <h5>Care At Mayo Clinic</h5> -->
+                <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+                <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">Research</button>
+                <span class="sr-only"></span>
+            
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Care at mayo clinic</a>
+                  <a class="dropdown-item" href="#">Appointments</a>
+                  <a class="dropdown-item" href="#">Location</a>
+                  <a class="dropdown-item" href="#">Patient & visitors</a>
+                  <a class="dropdown-item" href="#">International services</a>
+                  <a class="dropdown-item" href="#">Medicinal department & center</a>
+                  <a class="dropdown-item" href="#">Doctor & medical staff</a>
+                  <a class="dropdown-item" href="#">Patient online service</a>
+                  <a class="dropdown-item" href="#">Billing & insurance </a>
+                  <a class="dropdown-item" href="#">Clinical trail</a>
+                  <a class="dropdown-item" href="#">International buisness collabration</a>
+                  <a class="dropdown-item" href="#">About mayo clinic</a>
+                  <a class="dropdown-item" href="#">Contact us</a>
+                </div>
+              </div>
+                  <div class="btn-group">
+                    <!-- <h5>Care At Mayo Clinic</h5> -->
+                    <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+                    <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">college of medicine & science</button>
+                    <span class="sr-only"></span>
+                
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Care at mayo clinic</a>
+                      <a class="dropdown-item" href="#">Appointments</a>
+                      <a class="dropdown-item" href="#">Location</a>
+                      <a class="dropdown-item" href="#">Patient & visitors</a>
+                      <a class="dropdown-item" href="#">International services</a>
+                      <a class="dropdown-item" href="#">Medicinal department & center</a>
+                      <a class="dropdown-item" href="#">Doctor & medical staff</a>
+                      <a class="dropdown-item" href="#">Patient online service</a>
+                      <a class="dropdown-item" href="#">Billing & insurance </a>
+                      <a class="dropdown-item" href="#">Clinical trail</a>
+                      <a class="dropdown-item" href="#">International buisness collabration</a>
+                      <a class="dropdown-item" href="#">About mayo clinic</a>
+                      <a class="dropdown-item" href="#">Contact us</a>
+                    </div>
+                  </div>
+                    <div class="btn-group">
+                        <!-- <h5>Care At Mayo Clinic</h5> -->
+                        <!-- < class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"> -->
+                        <button class=" dropdown-toggle dropdown-toggle-split but1" data-toggle="dropdown" aria-expanded="false">Giving to Mayo Clinic</button>
+                        <span class="sr-only"></span>
+                    
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Giving to mayo clinic </a>
+                          <a class="dropdown-item" href="#">Give now</a>
+                          <a class="dropdown-item" href="#">Philanatrophy in action</a>
+                          <a class="dropdown-item" href="#">Frequently asked question</a>
+                          <a class="dropdown-item" href="#">International services</a>
+                          <a class="dropdown-item" href="#">Medicinal department & center</a>
+                          <a class="dropdown-item" href="#">Doctor & medical staff</a>
+                          <a class="dropdown-item" href="#">Patient online service</a>
+                          <a class="dropdown-item" href="#">Billing & insurance </a>
+                          <a class="dropdown-item" href="#">Clinical trail</a>
+                          <a class="dropdown-item" href="#">International buisness collabration</a>
+                          <a class="dropdown-item" href="#">About mayo clinic</a>
+                          <a class="dropdown-item" href="#">Contact us</a>
+      <!-- <div class="dropdown-divider"></div> -->
+      <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+    </div>
+</div>
+  
+  <div class=" container-fluid img1"></div>
+
+  <div class="d-flex justify-content-around sec4">
+    <div class="col-md-4">
+    <h5>REQUEST AN APPOINTMENT</h5></div>
+    <div class="col-md-4">
+   <h5 class="sec6">Login to patient Account</h5></div>
+   <div class="col-md-4">
+   <h5 class="sec5">Search Diseases And Conditions</h5></div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-around m-auto">
+  <div class="col-lg-4">
+    <h1>WHY CHOOSE <br>MAYO CLINIC?</h1><br>
+    
+    <button class="bg-primary sec8"><a class="text-light" href="#">Learn More about mayo clinic</a></button>
+  </div>
+  <div class="col-lg-4">
+    <hr><br>
+
+    <h2><i class="fa-sharp fa-solid fa-stethoscope"></i><br>More Experience</h2><br>
+    <p>The million patients we treat each year prepares<br> us to treat the one who matters most — you.</p><br>
+    <hr>
+  </div>
+  <div class="col-lg-4">
+    <hr><br>
+    <h2><i class="fa-sharp fa-regular fa-memo-pad"></i><br>The right answers</h2><br>
+        <p>Count on our experts to deliver an accurate diagnosis and the right plan for you the first time.</p><br>
+  <hr>
+  </div>
+</div>
+<hr><br>
+<div class="d-flex justify-content-around">
+<div class="col-md-6">
+    <h2><i class="fa-solid fa-wave-pulse"></i>You come first</h2>
+    <p>Treatment at Mayo Clinic is a truly human experience. You're cared for as a person first.</p>
+</div>
+<div class="col-md-6">
+    <h2>Innovation with impact</h2>
+    <p>All of our patient care, education and research are driven to make discoveries that can help heal you.</p>
+</div><br><br>
+</div>
+<hr>
+<div>
+<div class="col-lg-4">
+  <h1>COVID-19<br>updates</h1>
+<p>Check our <a href="#">COVID-19 resource center</a> for patient and visitor guidelines and trusted health information.</p>
+</div>
+<div class="d-flex justify-content-start">
+<div class="col-lg-4">
+</div>
+<div class="col-lg-4 ">
+  <h4>Vaccine options by location</h4>
+  <hr>
+  <p><a href="#">Arizona</a></p><hr>
+  <p><a href="#">Florida</a></p><hr>
+  <p><a href="#">Minestia</a></p><hr>
+  <p><a href="#">Mayo clinic health system</a></p><hr>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer class="sec9">
+    <div class="d-flex justify-content-around">
+    <div class="col-md-4">
+    <h6>For medical proffesionals</h6>
+    <h6>Find a doctor</h6>
+    <h6>Refer a patient</h6>
+    <h6>View clinical trails</h6><br>
+    <h6>For students</h6><br>
+    <h6>view student portal</h6>
+    <h6>view degree programs</h6>
+    <h6>view admission requirements</h6>
+</div>
+<div class="col-md-4">
+    <h6>For researchers</h6><br>
+    <h6>Find a expert in research area</h6>
+    <h6>view mayo clinic lab service</h6>><br>
+    <h6>for job seekers</h6><br>
+    <h6>view job positions</h6>
+    <h6>view student portal</h6>
+    <h6>view degree programs</h6>
+    <h6>view admission requirements</h6>
+</div>
+</div>
+    
+</footer>
+
+
+
+    </div>
+</div>  
+    
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
