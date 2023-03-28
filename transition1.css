@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+.img1{
+    height:20vh;
+    width:600px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv1Uw6UOvoj9aI46Gg6tTOlgZvASQmCGB-2g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.img2{
+    height:20vh;
+    width:600px;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/151/613/236/food-pizza-cheese-pictures-free-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
