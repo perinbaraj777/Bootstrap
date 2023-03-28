@@ -1,0 +1,35 @@
+.intro{
+    background-color:rgb(235, 40, 40);
+    padding:10px;
+    padding-bottom:1px;
+}
+.bd1{
+    height:100vh;
+    width:50%;
+    margin-top:5px;
+}
+.bd2{
+    height:75vh;
+    padding:10px;
+    background-color:rgba(169, 233, 230, 0.966);
+}
+.bdr{
+    border-radius:50px;
+}
+button{
+    height:30px;
+    margin-left:250px;
+    margin-top:-5px;
+    background-color: blue;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+a{
+    color:white;
+    font-weight: 700;
+}
+.bdr2{
+    border-radius:25px;
+}
