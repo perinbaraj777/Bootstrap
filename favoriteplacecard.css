@@ -1,0 +1,32 @@
+
+.cont1{
+    height:90vh;
+    width:90%;
+    margin-top:20px;
+background-image: url("https://images.unsplash.com/photo-1614849286521-4c58b2f0ff15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+h1{
+    padding:10px;
+    color:white;
+}
+.taj{
+    border-radius:10px;
+    padding:10px;
+}
+.img1{
+    border-radius:20px;
+}
+.palace{
+    border-radius:10px;
+    padding:10px;
+}
+.img2{
+    border-radius:20px;
+}
+.tanjai{
+    border-radius:10px;
+    padding:10px;
+}
+.img3{
+    border-radius:20px;
+}
